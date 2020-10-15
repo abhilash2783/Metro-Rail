@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="fill_parent"
+ android:layout_width="fill_parent" 
+ android:id="@+id/scrollView1"
+ xmlns:android="http://schemas.android.com/apk/res/android">
+<AbsoluteLayout android:id="@+id/absoluteLayout1" 
+	android:background="@drawable/milky"  
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent" 
+	xmlns:android="http://schemas.android.com/apk/res/android">
+<TextView android:textSize="20sp" android:textColor="#555555" 
+android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textView1"
+ android:text="Enter Train No" android:layout_x="5dip" android:layout_y="1dip"></TextView>
+<Spinner android:layout_height="wrap_content" 
+android:layout_width="fill_parent" 
+android:id="@+id/autoCompleteTextView3" 
+android:layout_x="2dip" android:layout_y="28dip" android:paddingRight="5px"
+>
+</Spinner>
+<Button android:onClick="onClick" 
+android:layout_height="wrap_content"
+ android:layout_width="wrap_content" 
+ android:id="@+id/button1" android:text="Search"
+  android:layout_x="190dip" android:layout_y="90dip"></Button>
+
+<RelativeLayout android:layout_x="153dip" 
+android:id="@+id/relativeLayout1" 
+android:layout_height="wrap_content"
+ android:layout_width="wrap_content" 
+ android:layout_y="116dip">
+</RelativeLayout>
+<TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textStyle="bold" android:id="@+id/textView2" android:text="HELP NOTES" android:layout_x="13dip" android:layout_y="116dip" android:textColor="#ff666666"></TextView>
+<TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textView4" android:text="Hyderabad to Lingampally" android:layout_x="50dip" android:layout_y="140dip" android:textColor="#ff666666"></TextView>
+<TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textView3" android:text="HL :" android:layout_x="16dip" android:layout_y="139dip" android:textColor="#ff666666"></TextView>
+<TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textView7" android:text="FL :" android:layout_x="18dip" android:layout_y="188dip" android:textColor="#ff666666"></TextView>
+<TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textView8" android:text="Falaknuma to Lingampally" android:layout_x="50dip" android:layout_y="188dip" android:textColor="#ff666666"></TextView>
+<TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textView10" android:text="Lingampally to Falaknuma" android:layout_x="50dip" android:layout_y="214dip" android:textColor="#ff666666"></TextView>
+<TextView android:id="@+id/textView10" android:layout_width="wrap_content" android:text="Falaknuma to Hyderabad" android:layout_height="wrap_content" android:layout_x="48dip" android:layout_y="240dip" android:textColor="#ff666666"></TextView>
+<TextView android:id="@+id/textView9" android:layout_width="wrap_content" android:text="FH:" android:layout_height="wrap_content" android:layout_x="18dip" android:layout_y="238dip" android:textColor="#ff666666"></TextView>
+<TextView android:id="@+id/textView10" android:layout_width="wrap_content" android:text="Hyderabad to Falaknuma" android:layout_height="wrap_content" android:layout_x="49dip" android:layout_y="269dip" android:textColor="#ff666666"></TextView>
+<TextView android:id="@+id/textView9" android:layout_width="wrap_content" android:text="HF :" android:layout_height="wrap_content" android:layout_x="18dip" android:layout_y="270dip" android:textColor="#ff666666"></TextView>
+<TextView android:id="@+id/textView6" android:layout_width="wrap_content" android:text="Lingampally to Hyderabad" android:layout_height="wrap_content" android:layout_x="48dip" android:layout_y="165dip" android:textColor="#ff666666"></TextView>
+<TextView android:id="@+id/textView5" android:layout_width="wrap_content" android:text="LH :" android:layout_height="wrap_content" android:layout_x="16dip" android:layout_y="165dip" android:textColor="#ff666666"></TextView>
+<TextView android:id="@+id/textView9" android:layout_width="wrap_content" android:text="LF :" android:layout_height="wrap_content" android:layout_x="21dip" android:layout_y="214dip" android:textColor="#ff666666"></TextView>
+
+
+
+
+
+
+
+</AbsoluteLayout>
+</ScrollView>

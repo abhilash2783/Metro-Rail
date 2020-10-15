@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <ScrollView   xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent" android:id="@+id/scrollView1" android:layout_height="wrap_content">
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:orientation="vertical"
+   android:background="@drawable/milky"
+   android:gravity="center_horizontal"
+    android:id="@+id/flldata">
+
+
+  
+  <LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:orientation="horizontal"
+ >
+  
+  <TextView android:text="KM's" 
+    android:layout_width="wrap_content"
+   android:layout_height="wrap_content"
+   android:textStyle="bold"
+   android:textSize="20px"
+   android:textColor="#ffa500"
+   android:paddingTop="20px"
+   
+   ></TextView>
+<TextView android:text="Fare" 
+ android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:paddingLeft="40px"
+     android:textSize="20px"
+  android:textStyle="bold"
+   android:textColor="#ffa500">
+  </TextView>
+  
+</LinearLayout>
+  <LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:orientation="horizontal"
+  android:paddingTop="10px"
+  android:gravity="center_horizontal">
+  
+  <TextView android:text="----------" 
+  android:id="@+id/optfone" 
+  android:layout_width="wrap_content"
+   android:layout_height="wrap_content"
+   android:textStyle="bold"
+    android:textColor="#ff333333"
+   ></TextView>
+<TextView android:text="-----------" 
+ android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:paddingLeft="60px"
+   android:textColor="#ff333333"
+  android:id="@+id/opftwo" 
+  android:textStyle="bold">
+  </TextView>
+
+  
+  
+  </LinearLayout>
+  
+
+
+
+</LinearLayout>
+</ScrollView>

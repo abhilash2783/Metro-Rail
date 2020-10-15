@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="horizontal">
+    
+    <TextView android:text="Trains available (Click to find Timings)" 
+    android:id="@+id/textView1"
+     android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:textSize="15px"
+      android:textColor="#3B5998"
+      android:paddingLeft="10px"
+      android:paddingTop="10px"
+      android:paddingBottom="10px"
+		android:textStyle="bold"
+	
+      android:layout_gravity="center_horizontal"
+      >
+      </TextView>
+     
+</LinearLayout>

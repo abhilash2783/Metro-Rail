@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:background="@drawable/milky"
+   
+    
+    >
+    <LinearLayout
+  
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical"
+   android:layout_marginLeft="6px"
+       android:layout_marginRight="6px"
+  >
+          
+  <TextView android:text="How to use this app" 
+       android:id="@+id/tView121" 
+       android:textColor="#555555"
+       android:textStyle="bold"
+       android:textSize="20px"
+       android:layout_gravity="center"
+       android:layout_width="wrap_content" 
+       android:layout_height="wrap_content"
+       android:layout_marginTop="6px"
+       android:layout_marginBottom="15px"
+       ></TextView>
+    
+   
+     
+      <TextView android:text="@string/s1" 
+       android:id="@+id/tView1" 
+       android:textStyle="bold"
+       android:textSize="15px"
+       android:layout_width="wrap_content" 
+       android:layout_height="wrap_content" 
+          android:layout_marginLeft="10px"
+              android:textColor="#555555"
+       android:layout_marginRight="10px"></TextView>
+       
+       <TextView android:text="@string/howtotext1" 
+       android:id="@+id/tView1" 
+       android:layout_width="wrap_content" 
+       android:layout_height="wrap_content"
+        android:layout_marginLeft="10px"
+            android:textColor="#555555"
+       android:layout_marginRight="10px"></TextView>
+       
+       <TextView android:text="@string/s2" 
+       android:id="@+id/tView1" 
+       android:textStyle="bold"
+       android:textSize="15px"
+           android:textColor="#555555"
+       android:layout_width="wrap_content" 
+       android:layout_height="wrap_content"
+		android:layout_marginLeft="15px"
+       android:layout_marginRight="10px"></TextView>
+       <TextView android:text="@string/howtotext2" 
+       android:id="@+id/tView1" 
+       android:layout_width="wrap_content" 
+       android:layout_height="wrap_content"
+       android:textColor="#555555"
+       android:layout_marginLeft="10px"
+       android:layout_marginRight="10px"></TextView>
+      
+       <TextView android:text="@string/s3" 
+       android:id="@+id/tView1" 
+       android:textStyle="bold"
+       android:textSize="15px"
+       android:textColor="#555555"
+       android:layout_width="wrap_content" 
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="15px"
+       android:layout_marginRight="10px"></TextView>
+       <TextView android:text="@string/howtotext3" 
+       android:id="@+id/tView1" 
+       android:layout_width="wrap_content" 
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="10px"
+           android:textColor="#555555"
+       android:layout_marginRight="10px"></TextView>
+       
+        <TextView android:text="@string/s4" 
+       android:id="@+id/tView1" 
+       android:textStyle="bold"
+       android:textSize="15px"
+       android:textColor="#555555"
+       android:layout_width="wrap_content" 
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="15px"
+       android:layout_marginRight="10px"></TextView>
+       <TextView android:text="@string/howtotext4" 
+       android:id="@+id/tView1" 
+       android:layout_width="wrap_content" 
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="10px"
+       android:textColor="#555555"
+       android:layout_marginRight="10px"></TextView>
+       
+       <View
+       android:layout_marginLeft="10px"
+       android:layout_marginRight="10px"
+         android:layout_marginTop="6px"
+        android:layout_marginBottom="6px"  
+        android:background="#006600"
+        android:layout_height="1dip"
+        android:layout_width="fill_parent"  
+        />
+      <TextView android:text="@string/s3i" 
+       android:id="@+id/tView1" 
+       android:textStyle="bold"
+       android:textSize="15px"
+           android:textColor="#555555"
+       android:layout_width="wrap_content" 
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="10px"
+       android:layout_marginRight="10px"></TextView>
+      
+      <TextView android:text="@string/s3id" 
+       android:id="@+id/tView1" 
+           android:textColor="#555555"
+       android:layout_width="wrap_content" 
+       android:layout_height="wrap_content" 
+        android:layout_marginLeft="10px"
+       android:layout_marginRight="10px"></TextView>
+      
+       
+             <Button android:layout_width="fill_parent" 
+      android:id="@+id/startb" android:text="Main Menu" 
+      android:layout_marginTop="10px"
+       android:layout_marginBottom="10px"
+      android:layout_height="50px"></Button>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MetroActivity</string>
+    <string name="app_name">METRO-HYD</string>
+    <string-array name="station_names">
+        <item>Hyderabad</item>
+        <item>Lakdikapul</item>
+        <item>Khairatabad</item>
+        <item>Necklace Road</item>
+        <item>Begumpet</item>
+        <item>Nature Cure Hospital</item>
+        <item>Fatehnagar</item>
+        <item>Bharatnagar</item>
+    </string-array>
+    <string-array name="ourapps">
+        <item>GRE Words Made Simple</item>
+        <item>Call Tracker</item>
+        <item>M Search</item>
+    </string-array>
+    
+
+    <string name="s1">Schedules</string>
+    <string name="s2">1. By Station:</string>
+    <string name="s3">2. By Train:</string>
+      <string name="s4">3. From-To:</string>
+      
+    <string name="s3i">Facilities:</string>
+    <string name="s3id">It allows you to find the nearest places from a given station.</string>
+<string name="howtotext1">We have placed the below search options: (All search options will work on 24hrs format ONLY) </string>
+<string name="howtotext2">Up on selection of any route respective stations in the route will be populated in a dropdown. After selecting a station , please select FROM-TO time in 24hr format ONLY.  </string>
+    <string name="howtotext3"> It allows you to find where is your train at this point of time. If have used short codes in this version.   </string>
+    <string name="howtotext4">Displays trains for a chosen source and destination in a given time range. Upon selecting a train from displayed list, you can see the train timings. </string>
+</resources>

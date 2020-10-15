@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="vertical"
+  android:background="@drawable/milky">
+  
+  <LinearLayout
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:orientation="horizontal"
+  android:background="@drawable/milky">
+    <TextView android:text="TO :" 
+    android:id="@+id/textView1"
+     android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textColor="#555555"
+           android:paddingLeft="10px" 
+           android:paddingTop="10px"
+      android:textStyle="bold"
+      android:textSize="15px">
+      </TextView>
+    
+    <EditText 
+     android:id="@+id/editText1"
+     android:paddingLeft="10px" 
+            android:paddingTop="10px"
+     android:layout_width="fill_parent" 
+     android:layout_height="fill_parent">
+     </EditText>
+  </LinearLayout>
+    
+  <LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:background="@drawable/milky">
+  <Button android:text="Share" 
+  android:id="@+id/shareee"
+   android:layout_width="wrap_content" 
+   android:layout_height="wrap_content"></Button>
+  </LinearLayout>
+</LinearLayout>

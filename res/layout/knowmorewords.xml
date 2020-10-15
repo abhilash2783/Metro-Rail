@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+android:id="@+id/widget28"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+xmlns:android="http://schemas.android.com/apk/res/android"
+>
+<TextView
+android:id="@+id/widget30"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Click For Download"
+android:textSize="18sp"
+android:typeface="sans"
+android:textStyle="bold"
+android:textColor="#ffcc6600"
+android:layout_below="@+id/widget29"
+android:layout_alignParentRight="true"
+>
+</TextView>
+<TextView
+android:id="@+id/widget29"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="GRE Words made Eassy App"
+android:typeface="sans"
+android:textStyle="bold|italic"
+android:textColor="#ffcc0000"
+android:layout_alignParentTop="true"
+android:layout_alignParentLeft="true"
+>
+</TextView>
+</RelativeLayout>

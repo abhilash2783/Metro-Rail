@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+  <ScrollView   xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent" android:id="@+id/scrollView1" android:layout_height="wrap_content">
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:orientation="vertical"
+   android:background="@drawable/milky" 
+   android:id="@+id/widgetll"
+   >
+<LinearLayout 
+android:orientation="vertical"
+android:layout_width="wrap_content"
+android:layout_height="300px"
+ android:id="@+id/widgetlll"
+> 
+
+<TextView
+
+android:paddingTop="20px"
+android:id="@+id/widget33"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginLeft="10px"
+android:text="Station Localities  :"
+android:textSize="20sp"
+android:typeface="sans"
+android:textStyle="bold"
+android:textColor="#3B5998"
+android:gravity="left"
+>  
+</TextView>
+<TextView
+android:paddingTop="30px"
+android:paddingLeft="10px"
+android:paddingRight="10px"
+android:id="@+id/widgetrr"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Stations Near by\n"
+android:textStyle="bold"
+android:textSize="17sp"
+android:typeface="sans"
+android:textColor="#005500"
+android:gravity="left"
+android:paddingBottom="30px"
+>  
+</TextView>
+<TextView
+android:paddingTop="30px"
+android:paddingLeft="10px"
+android:paddingRight="10px"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:textStyle="bold"
+android:textSize="17sp"
+android:typeface="sans"
+android:textColor="#005500"
+android:gravity="left"
+android:paddingBottom="30px"
+>  
+</TextView>
+<TextView
+android:paddingTop="30px"
+android:paddingLeft="10px"
+android:paddingRight="10px"
+android:id="@+id/widgetrr"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text=""
+android:textStyle="bold"
+android:textSize="17sp"
+android:typeface="sans"
+android:textColor="#555555"
+android:gravity="left"
+>  
+</TextView>
+  </LinearLayout>
+<LinearLayout 
+  android:id="@+id/adv"   
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+
+> 
+
+
+  <TextView android:layout_marginTop="30px"
+
+  android:layout_marginLeft="10px"
+  android:text="" 
+  android:id="@+id/TextView01" 
+  android:textColor="#000000"
+  android:layout_width="wrap_content" 
+  android:layout_height="wrap_content"></TextView>
+</LinearLayout>
+
+</LinearLayout>
+</ScrollView>
